@@ -139,6 +139,5 @@ if __name__ == '__main__':
     low_price = 1000  # Фильтр по минимальной цене
     top_price = 10000  # Фильтр по максимальной цене
     discount = 10  # Фильтр по наличию скидки (указанное число и больше)
-
     
     parser(url=url, low_price=low_price, top_price=top_price, discount=discount)
